@@ -5,6 +5,7 @@ main {
 /* твой код */
 
 .navbar {
+  position: fixed;
   background-color: rgb(102, 102, 102);
   font-size: 20px;
   color: white;
