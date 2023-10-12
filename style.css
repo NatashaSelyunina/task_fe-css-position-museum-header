@@ -2,9 +2,8 @@ main {
   height: 200vh;
 }
 
-.banner {
+body {
   background-image: linear-gradient(to right, yellow, rgb(81, 95, 9));
-  width: 100%;
 }
 
 /* твой код */
@@ -12,15 +11,15 @@ main {
 .navbar {
   position: fixed;
   background-color: rgb(102, 102, 102);
+  background-size: 1600px;
   font-size: 20px;
   color: white;
   text-decoration: underline;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
   font-family: "NarrowNews", sans-serif;
   font-style: italic;
   text-align: center;
-  width: 97%;
-  left: 9px;
+  width: 100%;
 }
 
 .navbarA {
