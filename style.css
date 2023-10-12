@@ -4,10 +4,20 @@ main {
 
 /* твой код */
 
+.navbar {
+  background-color: rgb(102, 102, 102);
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "NarrowNews", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
 
-
-
-
+.navbarA {
+  margin: 10px;
+}
 
 @font-face {
   font-family: "NarrowNews"; 
