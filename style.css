@@ -2,6 +2,11 @@ main {
   height: 200vh;
 }
 
+.banner {
+  background-image: linear-gradient(to right, yellow, rgb(81, 95, 9));
+  width: 100%;
+}
+
 /* твой код */
 
 .navbar {
@@ -14,10 +19,17 @@ main {
   font-family: "NarrowNews", sans-serif;
   font-style: italic;
   text-align: center;
+  width: 97%;
+  left: 9px;
 }
 
 .navbarA {
   margin: 10px;
+}
+
+.navbarA:hover {
+  color: red;
+  text-decoration: line-through;
 }
 
 @font-face {
